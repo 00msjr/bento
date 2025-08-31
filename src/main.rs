@@ -1,6 +1,5 @@
 use clap::{Arg, Command as ClapCommand};
 use colored::*;
-use std::collections::HashMap;
 use std::env;
 use std::fs;
 use std::os::unix::fs::PermissionsExt;
