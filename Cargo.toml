@@ -1,11 +1,23 @@
 [package]
-name = "bento"
+name = "bento-cli"
 version = "0.1.0"
 edition = "2024"
 authors = ["00msjr"]
-description = ""
+description = "A command organizer that searches and organizes all your commands, packages, aliases, and functions in one place"
 license = "MIT"
 repository = "https://github.com/00msjr/bento"
+homepage = "https://github.com/00msjr/bento"
+readme = "README.md"
+keywords = ["cli", "command", "search", "terminal", "organizer"]
+categories = ["command-line-utilities", "development-tools"]
+
+[[bin]]
+name = "bento"
+path = "src/main.rs"
+
+[lib]
+name = "bento"
+path = "src/lib.rs"
 
 [dependencies]
 clap = "4.0"
