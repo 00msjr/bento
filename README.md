@@ -1,4 +1,4 @@
-# 🍱 bento-cli
+# 🍱 bento
 
 A unified command organizer that searches across all your installed commands, packages, aliases, and functions in one place.
 
