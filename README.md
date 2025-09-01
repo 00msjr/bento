@@ -34,7 +34,7 @@ Bento searches across:
 
 #### Option 1: Install from crates.io (Recommended)
 ```bash
-cargo install bento
+cargo install bento-cli
 ```
 
 #### Option 2: Install from GitHub using Cargo
